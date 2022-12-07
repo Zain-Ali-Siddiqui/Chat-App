@@ -49,8 +49,8 @@ function SignUp() {
     <Container component="div" maxWidth="xs" className={classes.root}>
       <div className={classes.paper}>
         <img src={loginImg} className={classes.mainImg} alt="signup img" />
-        <Topography variant="h4" style={{ paddingTop: "15px" }}>
-          Sign In To Chatify
+        <Topography variant="h5" style={{ paddingTop: "15px" }}>
+          Sign In To  Group Chatting
         </Topography>
         <Button
           variant="outlined"
