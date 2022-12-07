@@ -97,7 +97,7 @@ function Messages({ values, msgId }) {
   const [style, setStyle] = useState({ display: "none" });
   const [deleteModal, setDeleteModal] = useState(false);
   const classes = useStyles();
-
+  
   const uid = JSON.parse(localStorage.getItem("userDetails")).uid;
   const messegerUid = values.uid;
   const date = values.timestamp.toDate();

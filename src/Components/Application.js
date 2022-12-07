@@ -42,6 +42,7 @@ const StyledBadge = withStyles((theme) => ({
       borderRadius: "50%",
       border: "1px solid currentColor",
       content: '""',
+      
     },
   },
   "@keyframes ripple": {

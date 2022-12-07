@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
   channelCard: {
     backgroundColor: "#1e2439",
     boxShadow:
-      "0px 3px 4px -1px rgb(0 0 0 / 17%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)",
+    "0px 3px 4px -1px rgb(0 0 0 / 17%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)",
     color: "rgb(220, 221, 222)",
   },
 }));
@@ -60,11 +60,11 @@ function Home() {
   const classes = useStyles();
   const [channels, setChannels] = useState([]);
   const history = useHistory();
-
+  
   useEffect(() => {
     db.collection("channels")
-      .orderBy("channelName", "asc")
-      .onSnapshot((snapshot) => {
+    .orderBy("channelName", "asc")
+    .onSnapshot((snapshot) => {
         setChannels(
           snapshot.docs.map((channel) => ({
             channelName: channel.data().channelName,

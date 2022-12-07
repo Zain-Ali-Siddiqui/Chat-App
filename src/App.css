@@ -83,3 +83,16 @@ a {
 .MuiSnackbarContent-root {
   background-color: rgb(109 52 125) !important;
 }
+
+.makeStyles-drawerPaper-18,
+.makeStyles-sideToolBar-19,
+.MuiToolbar-regular,
+.makeStyles-footerContent-49,
+.makeStyles-footerContent-61 {
+  background-color: #1c1c25 !important;
+}
+
+.makeStyles-root-42,
+.makeStyles-content-3{
+  background-color: #12131a !important;
+}
