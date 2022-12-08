@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "1.2rem",
   },
   channelCard: {
-    backgroundColor: "#1e2439",
+    backgroundColor: "#1c1c25",
     boxShadow:
     "0px 3px 4px -1px rgb(0 0 0 / 17%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)",
     color: "rgb(220, 221, 222)",

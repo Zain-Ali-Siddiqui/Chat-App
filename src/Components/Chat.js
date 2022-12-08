@@ -55,7 +55,7 @@ const useStyles = makeStyles((theme) => ({
   },
   footerContent: {
     display: "flex",
-    backgroundColor: "#303753",
+    backgroundColor: "#1c1c25",
     borderRadius: "5px",
     alignItems: "center",
   },

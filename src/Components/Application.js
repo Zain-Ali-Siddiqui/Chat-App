@@ -112,7 +112,7 @@ const useStyles = makeStyles((theme) => ({
   toolbar: theme.mixins.toolbar,
   drawerPaper: {
     width: drawerWidth,
-    backgroundColor: "#171c2e",
+    backgroundColor: "#1c1c25",
     color: "white",
   },
   sideToolBar: {
@@ -126,6 +126,8 @@ const useStyles = makeStyles((theme) => ({
   sideToolBarText: {
     letterSpacing: "0.2em",
     fontWeight: "900",
+    paddingTop:'15px',
+    height:"63.8px"
   },
   title: {
     flexGrow: 1,

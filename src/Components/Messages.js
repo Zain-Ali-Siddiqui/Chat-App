@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
     marginBlockStart: 0,
     marginBlockEnd: 0,
     display: "inline-block",
-    paddingLeft: "0.5em",
+    paddingLeft: "0.8em",
     color: "white",
   },
   chatText: {

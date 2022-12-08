@@ -110,7 +110,6 @@ function Rooms() {
           </IconButton>
         }
       />
-
       {showCreateRoom ? (
         <CreateRoom create={addChannel} manage={manageCreateRoomModal} />
       ) : null}
@@ -121,7 +120,6 @@ function Rooms() {
         </IconButton>
       </ListItem>
       <Divider />
-
       <List component="nav" aria-labelledby="nested-list-subheader">
         <ListItem button onClick={handleClick}>
           <ListItemIcon>
