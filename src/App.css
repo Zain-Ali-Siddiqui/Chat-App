@@ -1,7 +1,7 @@
 body {
   height: 100vh !important;
   overflow: hidden !important;
-  background-color: #003566;
+  background-color: #003566 !important;
 }
 
 /* width */

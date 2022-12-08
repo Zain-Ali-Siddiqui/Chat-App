@@ -87,10 +87,8 @@ function Rooms() {
       db.collection("channels")
         .add({ channelName: cName.toLowerCase() })
         .then((res) => {
-          console.log("added new channel");
         })
         .then((err) => {
-          console.log(err);
         });
     }
   };
@@ -115,19 +113,18 @@ function Rooms() {
         <CreateRoom create={addChannel} manage={manageCreateRoomModal} />
       ) : null}
       <ListItem style={{ paddingTop: 0, paddingBottom: 0 }}>
-        <ListItemText primary="Create New Channel" />
+        <ListItemText primary="Create New Group" />
         <IconButton edge="end" aria-label="add" onClick={manageCreateRoomModal}>
           <AddIcon className={classes.primary} />
         </IconButton>
       </ListItem>
       <Divider />
-
       <List component="nav" aria-labelledby="nested-list-subheader">
         <ListItem button onClick={handleClick}>
           <ListItemIcon>
             <IoMdChatboxes className={classes.iconDesign} />
           </ListItemIcon>
-          <ListItemText primary="CHANNELS" style={{ color: "#8e9297" }} />
+          <ListItemText primary="Groups" style={{ color: "#8e9297" }} />
           {open ? (
             <ExpandLess className={classes.primary} />
           ) : (

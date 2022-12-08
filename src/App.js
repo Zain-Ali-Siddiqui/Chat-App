@@ -32,7 +32,6 @@ function App() {
           .get()
           .then((doc) => {
             if (doc.exists) {
-              console.log("user exits");
             } else {
               const details = {
                 name: user.displayName,
@@ -45,7 +44,6 @@ function App() {
                 .doc(user.uid)
                 .set(details)
                 .then((res) => {
-                  console.log("new user created");
                 })
                 .catch((err) => {
                   console.log(err);
@@ -55,14 +53,12 @@ function App() {
           .catch((err) => {
             console.log(err);
           });
-
         setUser(user.uid);
       } else {
         setUser(null);
       }
     });
   }, []);
-
   return (
     <div className="App">
       <Router>

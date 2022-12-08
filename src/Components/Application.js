@@ -175,11 +175,9 @@ function Application(props) {
     auth
       .signOut()
       .then(() => {
-        console.log("signed out");
         localStorage.clear();
       })
       .catch((err) => {
-        console.log(err);
       });
   };
 
@@ -187,7 +185,7 @@ function Application(props) {
     <div>
       <Toolbar className={classes.sideToolBar}>
         <Typography variant="h6" className={classes.sideToolBarText}>
-          CHATIFY
+          Group Chatting
         </Typography>
       </Toolbar>
       <Divider />
@@ -261,7 +259,6 @@ function Application(props) {
           >
             <MenuIcon />
           </IconButton>
-
           <Typography variant="h6" className={classes.title}>
             <Link to="/" style={{ textDecoration: "none", color: "#dcddde" }}>
               Home
@@ -297,15 +294,13 @@ function Application(props) {
               <MenuItem onClick={toggleEditProfile}>
                 <FaUserEdit /> &nbsp; Edit Profile
               </MenuItem>
-
               <MenuItem onClick={signOut}>
-                <GoSignOut /> &nbsp; Sign Out of Chatify
+                <GoSignOut /> &nbsp; Sign Out of Group Chatting
               </MenuItem>
             </Menu>
           </div>
         </Toolbar>
       </AppBar>
-
       <nav className={classes.drawer} aria-label="chat rooms">
         {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
         <Hidden smUp implementation="css">
@@ -325,7 +320,6 @@ function Application(props) {
             {drawer}
           </Drawer>
         </Hidden>
-
         <Hidden xsDown implementation="css">
           <Drawer
             classes={{

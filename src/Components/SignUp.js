@@ -38,10 +38,8 @@ function SignUp() {
     auth
       .signInWithPopup(provider)
       .then((res) => {
-        console.log("Success");
       })
       .catch((err) => {
-        console.log(err);
       });
   };
 
