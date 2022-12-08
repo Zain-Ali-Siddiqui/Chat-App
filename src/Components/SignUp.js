@@ -50,7 +50,7 @@ function SignUp() {
       <div className={classes.paper}>
         <img src={loginImg} className={classes.mainImg} alt="signup img" />
         <Topography variant="h5" style={{ paddingTop: "15px" }}>
-          Sign In To  Group Chatting
+          Sign In To Group Chatting
         </Topography>
         <Button
           variant="outlined"

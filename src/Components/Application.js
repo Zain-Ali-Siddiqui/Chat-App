@@ -300,7 +300,7 @@ function Application(props) {
               </MenuItem>
 
               <MenuItem onClick={signOut}>
-                <GoSignOut /> &nbsp; Sign Out of Chatify
+                <GoSignOut /> &nbsp; Sign Out of Group Chatting
               </MenuItem>
             </Menu>
           </div>
