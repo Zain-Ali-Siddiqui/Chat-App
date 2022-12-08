@@ -1,7 +1,7 @@
 body {
   height: 100vh !important;
   overflow: hidden !important;
-  background-color: #22273b !important;
+  background-color: #003566;
 }
 
 /* width */
@@ -20,7 +20,10 @@ body {
   background: #151b2d !important;
   border-radius: 5px;
 }
-
+.makeStyles-root-4 {
+  background-color: transparent !important;
+  /* border-radius: 20px !important; */
+}
 .emoji-mart {
   position: absolute !important;
   bottom: 70px !important;
