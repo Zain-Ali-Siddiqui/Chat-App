@@ -20,10 +20,12 @@ body {
   background: #151b2d !important;
   border-radius: 5px;
 }
+
 .makeStyles-root-4 {
   background-color: transparent !important;
   /* border-radius: 20px !important; */
 }
+
 .emoji-mart {
   position: absolute !important;
   bottom: 70px !important;
@@ -51,7 +53,8 @@ body {
 }
 
 .MuiDivider-root {
-  background-color: rgb(0 0 0 / 40%) !important;
+  background-color: #12131a !important;
+  font-weight: 600;
 }
 
 .MuiDialog-paper {
@@ -91,11 +94,23 @@ a {
 .makeStyles-sideToolBar-19,
 .MuiToolbar-regular,
 .makeStyles-footerContent-49,
-.makeStyles-footerContent-61 {
+.makeStyles-footerContent-61,
+.makeStyles-footerContent-58,
+.makeStyles-channelCard-50 {
+  background-color: #1c1c25 !important;
+}
+
+.makeStyles-drawerPaper-104 {
   background-color: #1c1c25 !important;
 }
 
 .makeStyles-root-42,
-.makeStyles-content-3{
+.makeStyles-content-3,
+.makeStyles-rootChannel-48,
+.MuiGrid-container {
   background-color: #12131a !important;
+}
+
+.makeStyles-paper-56:hover {
+  background-color: #1c1c25 !important;
 }
