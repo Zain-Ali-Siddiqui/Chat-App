@@ -431,7 +431,6 @@ function Messages({ values, msgId }) {
             ) : null}
           </div>
         </div>
-
         <div className={classes.emojiDiv} style={style}>
           <div className={classes.emojiDivInner}>
             <div className={classes.allEmoji}>
