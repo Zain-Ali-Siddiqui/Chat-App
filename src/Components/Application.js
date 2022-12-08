@@ -272,8 +272,11 @@ function Application(props) {
               aria-haspopup="true"
               onClick={handleMenu}
               color="inherit"
-            >
-              <AccountCircle />
+            > <Avatar
+            alt={userDetails.name}
+            src={userDetails.photoURL}
+            className={classes.purple}
+          />
             </IconButton>
             <Menu
               id="menu-appbar"
