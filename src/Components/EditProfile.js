@@ -92,7 +92,7 @@ function EditProfile({ toggler, alert }) {
               variant="outlined"
               value={displayName}
               style={{
-                backgroundColo: "rgb(45, 45, 73)",
+                backgroundColor: "rgb(45, 45, 73)",
                 borderRadius: "5px",
               }}
               onChange={(e) => {
