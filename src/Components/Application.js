@@ -226,13 +226,11 @@ function Application(props) {
       <Divider />
     </div>
   );
-
   const container =
     window !== undefined ? () => window().document.body : undefined;
   return (
     <div className={classes.root}>
       <CssBaseline />
-
       <Snackbar
         anchorOrigin={{ vertical: "top", horizontal: "center" }}
         open={alert}
@@ -246,11 +244,9 @@ function Application(props) {
           </IconButton>
         }
       />
-
       {editProfileModal ? (
         <EditProfile toggler={toggleEditProfile} alert={handleAlert} />
       ) : null}
-
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar style={{ minHeight: "50px" }}>
           <IconButton
