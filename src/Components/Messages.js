@@ -360,13 +360,11 @@ function Messages({ values, msgId }) {
             className={classes.purple}
           />
         </div>
-
         <div className={classes.chat}>
           <div>
             <h6 className={classes.chatHeading}>{values.userName}</h6>
             <p className={classes.chatTimming}>{time}</p>
           </div>
-
           <div className={classes.chatText}>
             {values.text.split("\n").map((txt, idx) => (
               <div key={idx}>
@@ -376,7 +374,6 @@ function Messages({ values, msgId }) {
               </div>
             ))}
           </div>
-
           <Grid item xs={12} md={12} style={{ paddingTop: "5px" }}>
             {postImg ? (
               <img
@@ -386,7 +383,6 @@ function Messages({ values, msgId }) {
               />
             ) : null}
           </Grid>
-
           <div style={{ paddingTop: "5px", display: "flex" }}>
             {numLikes > 0 ? (
               <div style={{ padding: "3px" }}>
