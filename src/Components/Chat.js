@@ -213,7 +213,7 @@ function Chat() {
               className={classes.message}
               required
               id="outlined-basic"
-              label="Enter Message"
+              placeholder="Enter Message"
               variant="outlined"
               multiline
               rows={1}
