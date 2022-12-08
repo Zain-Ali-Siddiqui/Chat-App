@@ -9,7 +9,6 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 function CreateRoom({ create, manage }) {
   const [open, setOpen] = useState(true);
   const [roomName, setRoomName] = useState("");
-
   const handleClose = () => {
     setOpen(false);
     manage();
@@ -21,7 +20,6 @@ function CreateRoom({ create, manage }) {
       manage();
     }
   };
-
   return (
     <div>
       <Dialog

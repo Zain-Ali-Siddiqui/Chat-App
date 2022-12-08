@@ -90,7 +90,6 @@ function Home() {
           </Typography>
         </Grid>
       </Grid>
-
       <Grid container className={classes.rootChannel}>
         {channels.map((channel) => (
           <Grid

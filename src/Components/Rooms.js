@@ -134,7 +134,6 @@ function Rooms() {
             <ExpandMore className={classes.primary} />
           )}
         </ListItem>
-
         <Collapse in={open} timeout="auto">
           <List component="div" disablePadding>
             {channelList.map((channel) => (
@@ -155,6 +154,7 @@ function Rooms() {
                     channel.channelName === channel.channelName.substr(0, 12)
                       ? channel.channelName
                       : `${channel.channelName.substr(0, 12)}...`
+                      
                   }
                   style={{ color: "#dcddde" }}
                 />

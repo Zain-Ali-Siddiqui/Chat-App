@@ -411,7 +411,6 @@ function Messages({ values, msgId }) {
                 </IconButton>
               </div>
             ) : null}
-
             {numHeart > 0 ? (
               <div style={{ padding: "3px" }}>
                 <IconButton

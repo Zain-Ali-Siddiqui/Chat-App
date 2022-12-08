@@ -81,7 +81,6 @@ function Chat() {
         .onSnapshot((snapshot) => {
           setChannelName(snapshot.data().channelName);
         });
-
       db.collection("channels")
         .doc(params.id)
         .collection("messages")
