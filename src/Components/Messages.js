@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: "10px",
     "&:hover": {
-      backgroundColor: "#1f2436",
+      backgroundColor: "#1c1c25",
     },
   },
   avatar: {
